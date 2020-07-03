@@ -1,6 +1,19 @@
 # SA-Diagnet: Self-attention-based network for diagnosing histopathological images
 This repository contains the source code of our work for classifying histopathological images using hollistic attention network. Breifly, we introduce an attention-based network to classify breast biopsy images. We streamline the histopathological image classification pipeline and show how to learn representations from gigapixel size images end-to-end. Our network extends the bag-of-words approach and uses self-attention to encode global information, allowing it to learn representations from clinically relevant tissue structures without any explicit supervision.
 
+## Visualization
+For the breast cancer diagnosis, several clinical studies have shown that ductal regions and stromal tissues are an importnat biomarkers. Our analysis reveals that our network pays attention to clinically relevant structures. See more details in the paper.
+
+### Ducts
+Below figure shows that our network is able to identify ducts of variable size and texture as an important structure. Here, ductal regions (marked by pathologists) are shown in **red** while top-50% bags predicted by our network are shown in **blue**. 
+
+![](images/duct.gif)
+
+### Stoma
+Below figure shows that our network is able to identify stroma as an important tissue. Here, each sub-figure is organized from left to right as: breast biopsy image, stroma tissue (shown in **pink**) labeled by pathologists, and top-50% words (words that belong to stroma tissue are shown in **pink** while the remaining words are shown in **blue**) identified using our model. The remaining 50% words are shown in white. 
+
+![](images/stroma.gif)
+
 ## Dependencies
 
 Our source code requires:
