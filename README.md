@@ -1,6 +1,14 @@
 # SA-Diagnet: Self-attention-based network for diagnosing histopathological images
 This repository contains the source code of our work for classifying histopathological images using hollistic attention network. Breifly, we introduce an attention-based network to classify breast biopsy images. We streamline the histopathological image classification pipeline and show how to learn representations from gigapixel size images end-to-end. Our network extends the bag-of-words approach and uses self-attention to encode global information, allowing it to learn representations from clinically relevant tissue structures without any explicit supervision.
 
+
+**Table of contents**
+ 1. [Visualization](#visualization)
+ 2. [Dependencies](#dependencies)
+ 3. [Training and Evaluation](#training-and-evaluation)
+ 4. [Pre-trained models](#pre-trained-models)
+ 5. [Issues](#issues)
+
 ## Visualization
 For the breast cancer diagnosis, several clinical studies have shown that ductal regions and stromal tissues are an importnat biomarkers. Our analysis reveals that our network pays attention to clinically relevant structures. See more details in the paper.
 
@@ -52,6 +60,9 @@ pip install -r requirements.txt
 
 ## Training and Evaluation
 See scripts `training_script.sh` and `eval_script.sh` for training and evaluation related examples
+
+## Pre-trained models
+Check `./model_zoo` directory for pre-trained models.
 
 
 ## Issues
