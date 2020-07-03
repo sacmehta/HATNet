@@ -1,0 +1,15 @@
+sudo apt-get install openslide-tools
+sudo apt-get install python-openslide
+pip install openslide-python
+
+
+# tb-nightly for tensorboard
+pip install tb-nightly
+
+# Opencv
+pip install opencv-contrib-python
+
+# SKLEARN
+
+pip install -U scikit-learn
+pip install seaborn
