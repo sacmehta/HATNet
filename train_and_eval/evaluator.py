@@ -244,7 +244,9 @@ class Evaluator(object):
 
         cmat_results_dict = cmat_results._asdict()
         for key, values in cmat_results_dict.items():
-                results_summary['{}'.format(key)] = values
+            if isinstance(values, np.ndarray):
+                values = values.tolist()
+            results_summary['{}'.format(key)] = values
 
         # plot the ROC curves
         print_log_message('Plotting ROC curves')
