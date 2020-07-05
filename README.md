@@ -1,4 +1,4 @@
-# SA-Diagnet: Self-attention-based end-to-end network for diagnosing histopathological images
+# HATNet: Self-attention-based end-to-end network for diagnosing histopathological images
 This repository contains the source code of our work for classifying histopathological images using hollistic attention network. Breifly, we introduce an attention-based network to classify breast biopsy images. We streamline the histopathological image classification pipeline and show how to learn representations from gigapixel size images end-to-end. Our network extends the bag-of-words approach and uses self-attention to encode global information, allowing it to learn representations from clinically relevant tissue structures without **any explicit supervision**.
 
 
