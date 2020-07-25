@@ -142,6 +142,7 @@ class Trainer(object):
         train_stats = Statistics()
 
         self.mi_model.train()
+        self.optimizer.zero_grad()
 
         num_samples = len(self.train_loader)
         epoch_start_time = time.time()
