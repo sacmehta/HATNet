@@ -45,7 +45,7 @@ accum_count=8 # accumulate gradients for 8 steps before updating the weights. Th
 data_workers=4 # Data workers
 optimizer='adam' # optimizer
 warm_up_steps=600 # warm-up iterations
-max_bsz_cnn_gpu0=100 #maximum batch size on GPU0. We will scale it by num_available GPUs in the code
+max_bsz_cnn_gpu0=100 #maximum words on GPU0. We will scale it by num_available GPUs in the code
 loss_fn='ce' # loss function (ce stands for cross entropy)
 
 
