@@ -67,6 +67,8 @@ pip install -r requirements.txt
 ## Training and Evaluation
 See scripts `training_script.sh` and `eval_script.sh` for training and evaluation related examples. Our evaluation code evaluates the performance of a model across different metrics, including plots for ROC curves. Please see [cmat_metrics.py](https://github.com/sacmehta/HATNet/blob/8f8bcd3b3eb4bd9c8a06d395e52e0989443b3156/metrics/cmat_metrics.py#L4) file.
 
+**Note**: For averaging model checkpoints, see [average_checkpoints.py](https://github.com/sacmehta/HATNet/blob/5bc3b50766d4c33c64bfffff8010accfe627486b/average_checkpoints.py#L48) file.
+
 ----
 
 ## Pre-trained models
