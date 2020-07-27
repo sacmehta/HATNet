@@ -1,8 +1,6 @@
-opencv>=3.0
-torchvision
-tb-nightly
-torch>=1.0
 pip
+opencv>=3.0
+tb-nightly
 seaborn
 opencv-contrib-python
 scikit-learn
