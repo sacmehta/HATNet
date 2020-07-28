@@ -7,7 +7,8 @@ This repository contains the source code of our work for classifying histopathol
  2. [Dependencies](#dependencies)
  3. [Training and Evaluation](#training-and-evaluation)
  4. [Pre-trained models](#pre-trained-models)
- 5. [Issues](#issues)
+ 5. Citation
+ 6. [Issues](#issues)
 
 ----
 
@@ -73,6 +74,22 @@ See scripts `training_script.sh` and `eval_script.sh` for training and evaluatio
 
 ## Pre-trained models
 Check `./model_zoo` directory for pre-trained models.
+
+----
+
+## Citation
+Please cite as:
+
+```
+@misc{mehta2020hatnet,
+    title={HATNet: An End-to-End Holistic Attention Network for Diagnosis of Breast Biopsy Images},
+    author={Sachin Mehta and Ximing Lu and Donald Weaver and Joann G. Elmore and Hannaneh Hajishirzi and Linda Shapiro},
+    year={2020},
+    eprint={2007.13007},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
 
 ----
 
