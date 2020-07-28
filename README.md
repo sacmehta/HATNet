@@ -7,7 +7,7 @@ This repository contains the source code of our work for classifying histopathol
  2. [Dependencies](#dependencies)
  3. [Training and Evaluation](#training-and-evaluation)
  4. [Pre-trained models](#pre-trained-models)
- 5. Citation
+ 5. [Citation](#citation)
  6. [Issues](#issues)
 
 ----
